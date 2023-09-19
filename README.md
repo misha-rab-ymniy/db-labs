@@ -1,4 +1,4 @@
-# Topic: tracking system
+# Topic: cinema
 
 <!-- ## Functional Requirements
 * User authorization. 
