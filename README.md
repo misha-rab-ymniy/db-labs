@@ -7,7 +7,10 @@
 * Logging user actions.
 * Films managment
 * Halls managment
-* Films_schedule managment -->
+* Films_schedule managment 
+* Non-authorized user see film schedule, films
+* Authorized user(USER) Non-authorized + buy tickets, see profile
+* Authorized user(ADMIN) CRUD with all entities-->
 
 ## Entities
 1. "film"
@@ -58,11 +61,11 @@
     * "review_id" BIGINT PRIMARY KEY NOT NULL
     * "film_id" BIGINT NOT NULL, -> film
     * "user_id" BIGINT NOT NULL, -> user
-    * "text" TEXT
+    * "text" VARCHAR(255)
 11. "seat"
     * "seat_id" BIGINT PRIMARY KEY NOT NULL
     * "hall_id" BIGINT NOT NULL, -> cinema_hall
     * "seat_number" BIGINT NOT NULL
     * "row_number" BIGINT NOT NULL
 
-![db_cinema](https://github.com/misha-rab-ymniy/db-labs/assets/93446693/71d5ef4c-40d9-4d87-ba46-0791a5c739c4)
+![db_cinema](https://github.com/misha-rab-ymniy/db-labs/assets/93446693/84ea7260-ee77-43a5-a925-d75f21e94b04)
