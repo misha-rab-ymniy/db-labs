@@ -6,11 +6,9 @@
 * The role system (USER, ADMIN).
 * Logging user actions.
 * Films managment
-* Halls managment
 * Films_schedule managment 
 * Non-authorized user see film schedule, films
-* Authorized user(USER) Non-authorized + buy tickets, see profile
-* Authorized user(ADMIN) CRUD with all entities-->
+* Authorized user(USER) Non-authorized + buy tickets, see profile-->
 
 ## Entities
 1. "film"
